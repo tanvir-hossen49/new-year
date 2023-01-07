@@ -184,16 +184,20 @@ footer {
   border: 1px solid #fff;
   transition: all 0.5s;
 }
+.footer-section .social-media a.github {
+  color: #000;
+}
+.footer-section .social-media a:hover {
+  color: #fff;
+  background-color: #000;
+}
 .footer-section .social-media a i {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.social-media a:hover {
-  color: #fff;
-  background-color: #000;
-}
+
 footer .subcribe-btn {
   color: #fff;
   background-color: #005fac;
